@@ -1,0 +1,13 @@
+header.header 
+  nav.nav.nav--exam 
+    a(href='/').nav__el Exam Dashboard
+  .header__logo 
+    img(src='/img/logo-white.png' alt='Natours Logo')
+  nav.nav.nav--user 
+    if user
+      button.nav__el--logout.nav__el Log out
+      a.nav__el(href='#')
+        span= user.name.split(" ")[0]
+    else
+      a(href="/login").nav__el Log in 
+      a(href="/signup").nav__el Sign up 

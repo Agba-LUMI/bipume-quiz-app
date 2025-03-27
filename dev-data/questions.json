@@ -1,0 +1,582 @@
+[
+  {
+    "subjects": {
+      "Government": {
+        "questions": [
+          {
+            "question": "What is the primary function of a government?",
+            "options": [
+              "To provide economic growth",
+              "To protect individual rights",
+              "To maintain law and order",
+              "To promote social welfare"
+            ],
+            "answer": "To maintain law and order"
+          },
+          {
+            "question": "Which of the following is a characteristic of a state?",
+            "options": [
+              "A permanent population",
+              "A defined territory",
+              "A system of government",
+              "All of the above"
+            ],
+            "answer": "All of the above"
+          },
+          {
+            "question": "What is the difference between a nation and a state?",
+            "options": [
+              "A nation is a political entity, while a state is a cultural entity",
+              "A nation is a cultural entity, while a state is a political entity",
+              "A nation is a geographic entity, while a state is an economic entity",
+              "A nation is an economic entity, while a state is a geographic entity"
+            ],
+            "answer": "A nation is a cultural entity, while a state is a political entity"
+          },
+          {
+            "question": "Which of the following types of government is characterized by a centralized authority?",
+            "options": [
+              "Federalism",
+              "Confederalism",
+              "Unitary",
+              "Anarchy"
+            ],
+            "answer": "Unitary"
+          },
+          {
+            "question": "What is the purpose of a constitution in a government?",
+            "options": [
+              "To establish the rules of a game",
+              "To define the powers of government",
+              "To protect individual rights",
+              "All of the above"
+            ],
+            "answer": "All of the above"
+          },
+          {
+            "question": "Which of the following is an example of a federal system of government?",
+            "options": [
+              "United States",
+              "China",
+              "France",
+              "Japan"
+            ],
+            "answer": "United States"
+          },
+          {
+            "question": "What is the term for the power of government to make laws?",
+            "options": [
+              "Executive power",
+              "Legislative power",
+              "Judicial power",
+              "Military power"
+            ],
+            "answer": "Legislative power"
+          },
+          {
+            "question": "Which of the following is a characteristic of a democratic government?",
+            "options": [
+              "A monarch as head of state",
+              "A centralized authority",
+              "Free and fair elections",
+              "A dictatorship"
+            ],
+            "answer": "Free and fair elections"
+          },
+          {
+            "question": "What is the term for the relationship between the government and the governed?",
+            "options": [
+              "Social contract",
+              "Political party",
+              "Interest group",
+              "Public policy"
+            ],
+            "answer": "Social contract"
+          },
+          {
+            "question": "Which of the following is an example of a confederation?",
+            "options": [
+              "European Union",
+              "United States",
+              "Switzerland",
+              "Germany"
+            ],
+            "answer": "European Union"
+          },
+          {
+            "question": "What is the purpose of a bill of rights in a government?",
+            "options": [
+              "To establish the rules of a game",
+              "To define the powers of government",
+              "To protect individual rights",
+              "To promote social welfare"
+            ],
+            "answer": "To protect individual rights"
+          },
+          {
+            "question": "Which of the following types of government is characterized by a decentralized authority?",
+            "options": [
+              "Unitary",
+              "Federal",
+              "Confederal",
+              "Anarchy"
+            ],
+            "answer": "Confederal"
+          },
+          {
+            "question": "What is the term for the power of government to enforce laws?",
+            "options": [
+              "Executive power",
+              "Legislative power",
+              "Judicial power",
+              "Military power"
+            ],
+            "answer": "Executive power"
+          },
+          {
+            "question": "Which of the following is a characteristic of a totalitarian government?",
+            "options": [
+              "Free and fair elections",
+              "Protection of individual rights",
+              "Centralized control of the economy",
+              "Separation of powers"
+            ],
+            "answer": "Centralized control of the economy"
+          },
+          {
+            "question": "What is the term for the study of government and politics?",
+            "options": [
+              "Political science",
+              "Economics",
+              "Sociology",
+              "History"
+            ],
+            "answer": "Political science"
+          }
+        ]
+      },  "Economics": {
+        "questions": [
+          {
+            "question": "Economics can be defined as",
+            "options": [
+              "Reduction in spending in the face of competing alternatives",
+              "Allocation of resources for alternative uses",
+              "Economic behavior of small units like the household and the firm",
+              "The study of economic aggregates like inflation and national income"
+            ],
+            "answer": "Allocation of resources for alternative uses"
+          },
+          {
+            "question": "The reward that accrues to the proprietor of a business is called...",
+            "options": [
+              "Wages",
+              "Profit",
+              "Rent",
+              "Interest"
+            ],
+            "answer": "Profit"
+          },
+          {
+            "question": "Calculate the mean of 9, 7, 6, 9, 10, 12, 14, 15, and 17",
+            "options": [
+              "10",
+              "11",
+              "12",
+              "9"
+            ],
+            "answer": "11"
+          },
+          {
+            "question": "In Nigeria, PAYE is an example of",
+            "options": [
+              "Regressive Tax",
+              "An indirect tax",
+              "Progressive tax",
+              "Value Added Tax"
+            ],
+            "answer": "Progressive tax"
+          },
+          {
+            "question": "In a free enterprise economy, economic problems are solved by:",
+            "options": [
+              "A planning committee",
+              "Government agencies",
+              "Both the public and private sectors",
+              "Price mechanism"
+            ],
+            "answer": "Price mechanism"
+          },
+          {
+            "question": "Which of the following is a normative reasoning?",
+            "options": [
+              "The higher the price, the lower the quantity demanded",
+              "A rise in the interest rate will lead to a fall in the borrowing rate",
+              "The higher the price, the higher the quantity supplied",
+              "Firms should not maximize profits in the sale of their products."
+            ],
+            "answer": "Firms should not maximize profits in the sale of their products."
+          },
+          {
+            "question": "The economic problem of how to produce is answered by the",
+            "options": [
+              "Number of people in a country",
+              "Available resources in a country",
+              "System of economy practiced",
+              "Available technical know-how"
+            ],
+            "answer": "Available technical know-how"
+          },
+          {
+            "question": "The study of Economics is necessary simply because of:",
+            "options": [
+              "Unemployment",
+              "Unlimited resources",
+              "Scarcity of resources",
+              "Over-population"
+            ],
+            "answer": "Scarcity of resources"
+          },
+          {
+            "question": "Government-proposed projects for the 2024 Fiscal year:\nI. Dam - Completed\nII. Road - Uncompleted\nIII. Airport - Completed\nIV. Hospital - Uncompleted\nThe opportunity cost is:",
+            "options": [
+              "II Only",
+              "I and II",
+              "I Only",
+              "II and IV"
+            ],
+            "answer": "II and IV"
+          },
+          {
+            "question": "A scientific approach to economic analysis entails",
+            "options": [
+              "Deductive methods only",
+              "Both inductive and normative methods",
+              "Normative methods only",
+              "Both inductive and deductive methods"
+            ],
+            "answer": "Both inductive and deductive methods"
+          },
+          {
+            "question": "A student has 30 naira with which to buy a ruler costing N18 and an exercise book costing 25 naira. What is the opportunity cost if he buys the exercise book?",
+            "options": [
+              "The ruler",
+              "The exercise book",
+              "25 naira",
+              "18 naira"
+            ],
+            "answer": "The ruler"
+          },
+          {
+            "question": "In certain circumstances, a centrally planned economy adopts the rationing system because of",
+            "options": [
+              "The scarcity of goods and services in the market",
+              "Low real and money wages",
+              "The need for equitable distribution of goods and services",
+              "Transportation and distribution problems"
+            ],
+            "answer": "The need for equitable distribution of goods and services"
+          },
+          {
+            "question": "The main objective of economic growth is to",
+            "options": [
+              "Redistribute income and other benefits of growth",
+              "Equalize opportunities for education and employment",
+              "Increase the aggregate expenditure on goods and services",
+              "Increase in real per capita income"
+            ],
+            "answer": "Increase in real per capita income"
+          },
+          {
+            "question": "An advantage of range as a measure of dispersion is that:",
+            "options": [
+              "It can be used to calculate open-ended distribution.",
+              "Makes use of all values of observation in a distribution.",
+              "Takes all values into consideration.",
+              "Is useful for further statistical calculation."
+            ],
+            "answer": "It can be used to calculate open-ended distribution."
+          },
+          {
+            "question": "Which of the following set of statistical tools is used for further economic analysis?",
+            "options": [
+              "The median and the standard deviation",
+              "The mean and mode",
+              "The mean and standard deviation",
+              "The mode and median"
+            ],
+            "answer": "The mean and standard deviation"
+          }
+        ]
+      },  "English": {
+        "questions": [
+          {
+            "question": "What is the full name of the principal referred to as Bepo?",
+            "options": [
+              "Bepo Adebowale",
+              "Adewale Adebepo",
+              "Adebayo Bepo",
+              "Adekunle Bepo"
+            ],
+            "answer": "Adewale Adebepo"
+          },
+          {
+            "question": "Who is the protagonist of the novel?",
+            "options": ["Banky", "Bepo", "Mrs. Ibidun Gloss", "Mr. Ogunwale"],
+            "answer": "Bepo"
+          },
+          {
+            "question": "Which teacher was known for her witty remarks in the book?",
+            "options": ["Mrs. Ibidun Gloss", "Mrs. Apeh", "Mr. Audu", "Mr. Amos"],
+            "answer": "Mrs. Ibidun Gloss"
+          },
+          {
+            "question": "What theme is central to the rivalry between Banky and Toss?",
+            "options": ["Democracy", "Social justice", "Family and politics", "Cultural diversity"],
+            "answer": "Family and politics"
+          },
+          {
+            "question": "The recurring phrase ‘If you say education is expensive, try ignorance’ reflects which theme?",
+            "options": ["Importance of hard work", "Value of education", "Leadership struggles", "Sacrifice and dedication"],
+            "answer": "Value of education"
+          },
+          {
+            "question": "The novel explores the effects of migration under which term?",
+            "options": ["Brain Drain", "Japa Syndrome", "Wanderlust", "Exodus"],
+            "answer": "Japa Syndrome"
+          },
+          {
+            "question": "What theme is highlighted through the depiction of the Badagry slave museum?",
+            "options": ["Liberation", "Historical memory", "African resilience", "Colonization"],
+            "answer": "Historical memory"
+          },
+          {
+            "question": "The sacrifices made by Bepo reflect which central theme of the book?",
+            "options": ["Family loyalty", "Dedication to duty", "Political ambition", "Cultural preservation"],
+            "answer": "Dedication to duty"
+          },
+          {
+            "question": "What led to the conflict during the prefect election speech?",
+            "options": ["Banky insulted Tosh’s father", "A bribe scandal emerged", "Bepo intervened in the voting process", "Tosh accused the school of favoritism"],
+            "answer": "Banky insulted Tosh’s father"
+          },
+          {
+            "question": "What project was the Invention Club working on?",
+            "options": ["A recycling initiative", "A phone-making project", "A solar-powered device", "A wind turbine"],
+            "answer": "A phone-making project"
+          },
+          {
+            "question": "And it sent him home', 'Home to rest in peace'. The lines above from Chibuike Onu's *A Government Driver on His Retirement* is an example of?",
+            "options": ["Irony", "Oxymoron", "Euphemism", "Hyperbole"],
+            "answer": "Euphemism"
+          },
+          {
+            "question": "The following are themes in *The Leader and the Led* except?",
+            "options": ["Leadership", "Followership", "Criticism of African leadership", "Unbalanced leadership"],
+            "answer": "Unbalanced leadership"
+          },
+          {
+            "question": "*Black Woman* was originally written in?",
+            "options": ["English", "French", "Spanish", "Afrikaans"],
+            "answer": "French"
+          },
+          {
+            "question": "According to *The Song of the Women of My Land*, African women used songs for ___ purposes.",
+            "options": ["Mourning", "Therapeutic", "Detrimental", "Wailing"],
+            "answer": "Therapeutic"
+          },
+          {
+            "question": "The mood of the poet in *The Grieved Lands of Africa* is?",
+            "options": ["Realistic", "Excited", "Mournful", "Optimistic"],
+            "answer": "Mournful"
+          },
+          {
+            "question": "A poem that does not conform to the regular rules of meter, rhymes, or line length is known as?",
+            "options": ["Irregular verse", "Free style", "Exemption", "Free verse"],
+            "answer": "Free verse"
+          },
+          {
+            "question": "The following are types of rhymes except?",
+            "options": ["Perfect rhyme", "Slant rhyme", "End rhyme", "None of the above"],
+            "answer": "None of the above"
+          },
+          {
+            "question": "He battled with his bottle booze\nOn his way home on wheels,\nBooze boozed his vision and clear judgment\nHe boomed his brand new car.\nThis portrays?",
+            "options": ["Oxymoron", "Synecdoche", "Euphemism", "Onomatopoeia"],
+            "answer": "Onomatopoeia"
+          },
+          {
+            "question": "Which of the following is untrue about the poem *A Government Driver on His Retirement*?",
+            "options": ["It was written by Chibuike Onu", "It is most likely set in Africa or Nigeria", "It has a universal setting", "It does not have a universal setting"],
+            "answer": "It does not have a universal setting"
+          },
+          {
+            "question": "The poem *Black Woman* represents the ___ continent.",
+            "options": ["Black", "Black American", "African", "Asian"],
+            "answer": "African"
+          }
+        ]
+      }, 
+      "Chemistry": {
+        "questions": [
+          {
+            "question": "The most suitable method to use when separating an insoluble solid from a liquid is",
+            "options": [
+              "Evaporation",
+              "Filtration",
+              "Magnetization",
+              "Sublimation",
+              "Distillation"
+            ],
+            "answer": "Filtration"
+          },
+          {
+            "question": "The atomic number of chlorine is 17. What is the number of electrons in a chloride ion?",
+            "options": [
+              "16",
+              "17",
+              "18",
+              "19"
+            ],
+            "answer": "18"
+          },
+          {
+            "question": "There is a large temperature interval between the melting point and the boiling point of a metal because?",
+            "options": [
+              "Metals have very high melting points",
+              "Metals conduct heat very rapidly",
+              "Melting does not break the metallic bond but boiling does",
+              "The crystal lattice of metals is easily broken"
+            ],
+            "answer": "Melting does not break the metallic bond but boiling does"
+          },
+          {
+            "question": "The chromatography separation of ink is based on the ability of the components to",
+            "options": [
+              "React with solvent",
+              "React with each other",
+              "Dissolve in each other in the column",
+              "Move at different speeds in the column"
+            ],
+            "answer": "Move at different speeds in the column"
+          },
+          {
+            "question": "Which of these require crystallization most?",
+            "options": [
+              "Drug making",
+              "Cement making",
+              "Paint making",
+              "Perfume making"
+            ],
+            "answer": "Drug making"
+          },
+          {
+            "question": "How many moles of H₂SO₄ are there in 50 cm³ of 0.108 mol/dm³ solution of the acid?",
+            "options": [
+              "5.4 × 10⁰ mole",
+              "5.4 × 10⁻³ mole",
+              "5.4 × 10⁻² mole",
+              "5.4 × 10⁻¹ mole"
+            ],
+            "answer": "5.4 × 10⁻³ mole"
+          },
+          {
+            "question": "120 cm³ of hydrogen were sparked with 60 cm³ of oxygen at 110°C. What was the volume of steam produced?",
+            "options": [
+              "30 cm³",
+              "60 cm³",
+              "90 cm³",
+              "120 cm³",
+              "180 cm³"
+            ],
+            "answer": "120 cm³"
+          },
+          {
+            "question": "The reactions involving simultaneous oxidation and reduction are called?",
+            "options": [
+              "Automatic reactions",
+              "Alternate reactions",
+              "Reduction agency",
+              "Redox reactions"
+            ],
+            "answer": "Redox reactions"
+          },
+          {
+            "question": "Four elements P, Q, R, and S have atomic numbers of 4, 10, 12, and 14 respectively. Which of these elements is a noble gas?",
+            "options": [
+              "P",
+              "Q",
+              "R",
+              "S"
+            ],
+            "answer": "Q"
+          },
+          {
+            "question": "The number of atoms in one mole of a substance is equal to the",
+            "options": [
+              "Mass number",
+              "Oxidation number",
+              "Atomic number",
+              "Avogadro number"
+            ],
+            "answer": "Avogadro number"
+          },
+          {
+            "question": "Which metal is a constituent of both bronze and solder?",
+            "options": [
+              "Copper",
+              "Lead",
+              "Silver",
+              "Tin",
+              "Zinc"
+            ],
+            "answer": "Tin"
+          },
+          {
+            "question": "The compounds made up of only carbon and hydrogen are called?",
+            "options": [
+              "Carbon compounds",
+              "Hydrocarbons",
+              "Atoms",
+              "Carbon hydrolysis"
+            ],
+            "answer": "Hydrocarbons"
+          },
+          {
+            "question": "Which of the following is a measure of the average kinetic energy of the molecules of a substance?",
+            "options": [
+              "Volume",
+              "Mass",
+              "Pressure",
+              "Temperature"
+            ],
+            "answer": "Temperature"
+          },
+          {
+            "question": "In the Periodic Table, the elements that lose electrons most readily belong to",
+            "options": [
+              "Group 1 A",
+              "Group 11 A",
+              "Group 111 A",
+              "Group V11 A"
+            ],
+            "answer": "Group 1 A"
+          },
+          {
+            "question": "The element with the electron configuration 1s²2s²2p³ is",
+            "options": [
+              "Calcium",
+              "Chlorine",
+              "Oxygen",
+              "Nitrogen"
+            ],
+            "answer": "Nitrogen"
+          }
+        ]
+      }
+    }
+  }
+
+  
+]
+
+

@@ -1,0 +1,42 @@
+{
+  "name": "bipume-quiz-app",
+  "version": "1.0.0",
+  "description": "A quiz app for brethren in post utme",
+  "main": "server.js",
+  "scripts": {
+    "test": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Agba-LUMI/bipume-quiz-app.git"
+  },
+  "author": "Nwosu Paul",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Agba-LUMI/bipume-quiz-app/issues"
+  },
+  "homepage": "https://github.com/Agba-LUMI/bipume-quiz-app#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "compression": "^1.8.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-rate-limit": "^7.5.0",
+    "helmet": "^8.1.0",
+    "hpp": "^0.2.3",
+    "html-to-text": "^9.0.5",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.15.0",
+    "mongoose": "^8.10.0",
+    "morgan": "^1.10.0",
+    "nodemailer": "^6.10.0",
+    "path": "^0.12.7",
+    "pug": "^3.0.3",
+    "xss-filters": "^1.2.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}

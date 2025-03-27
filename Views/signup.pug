@@ -1,0 +1,29 @@
+extends base
+block Content 
+  main.main 
+    .login-form 
+      h2.heading-secondary.ma-bt-lg Register for BIPUME MOCK EXAM, It is FREE for EVERYONE 
+      form.form.form--login.form--signedUp
+        .form__group 
+          label.form__label(for="fullName") Full Name 
+          input#fullName.form__input(type="text", placeholder="Your Full Name", required)
+        .form__group.ma-bt-md 
+          label.form__label(for='activeEmail') Your Active Email 
+          input#activeEmail.form__input(type='email', placeholder='you@example.com', required)
+        .form__group.ma-bt-md 
+          label.form__label(for='activeNumber') Your Active WhatsApp Number
+          input#activeNumber.form__input(type='activeNumber', placeholder='Your Active Number', required, minlength='11')
+        .form__group.ma-bt-md 
+          label.form__label(for='desireJambScore') Your Desired JAMB Score
+          input#desireJambScore.form__input(type='number', placeholder='320', required, minlength='3')
+        .form__group.ma-bt-md 
+          label.form__label(for='onBipume') Are You on BIPUME Free JAMB and POST UTME Group?
+          input#onBipume.form__input(type='number', placeholder='Yes/NO', required)
+        .form__group.ma-bt-md
+           label.form__label(for='joinBipume') Would You Like to Join BIPUME Free JAMB and POST UTME Group? 
+          input#joinBipume.form__input(type='text', placeholder='Oh, Yes, I want to be part of this blessed community', required)
+         
+             
+
+        .form__group
+          button.btn.btn--green(type="submit") Register for BIPUME MOCK
