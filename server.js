@@ -1,5 +1,5 @@
 const mongoose = require("mongoose");
-const dotenv = require(dotenv);
+const dotenv = require("dotenv");
 const app = require("./app");
 dotenv.config({ path: "/config.env" });
 const DB = process.env.DATABASE.replace(
@@ -11,7 +11,7 @@ mongoose
   .then(() => console.log("DB Connection Successful"))
   .catch((err) => console.log("DB Connection error"));
 const port = process.env.PORT || 4000;
-const server = app.listen(port, "0.0.0.0", () =>
+const server = app.listen(port, "127.0.0.1", () =>
   console.log(`Server is running on port ${port}`)
 );
 process.on("unhandledRejection", (err) => {

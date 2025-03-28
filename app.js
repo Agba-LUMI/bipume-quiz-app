@@ -1,8 +1,10 @@
 const compression = require("compression");
 const userRouter = require("./Routes/userRouter");
 const express = require("express");
-const dotenv = require(dotenv);
-const cors = require(cors);
+const dotenv = require("dotenv");
+const path = require("path");
+const cors = require("cors");
+const viewRouter = require("./Routes/viewRouter");
 const helmet = require("helmet");
 const globalErrorHandler = require("./Controllers/errorHandler");
 const app = express();
@@ -13,7 +15,7 @@ app.use(cors());
 app.options("*", cors());
 app.use(helmet());
 app.use(express.json({ limit: "10kb" }));
-app.use(express.urlencoded({ limit: "10kb" }));
+app.use(express.urlencoded({ limit: "10kb", extended: true }));
 app.use(compression());
 app.enable("trust proxy");
 app.use((req, res, next) => {
@@ -21,8 +23,8 @@ app.use((req, res, next) => {
 
   next();
 });
-
-app.use("/api/v1/users/signup", userRouter);
 app.use("/", viewRouter);
+app.use("/api/v1/users", userRouter);
+
 app.use(globalErrorHandler);
 module.exports = app;

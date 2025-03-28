@@ -30,7 +30,7 @@ const userSchema = mongoose.Schema({
     required: [true, "This is important, kindly fill in"],
   },
   joinBipume: {
-    type: Boolean,
+    type: String,
     required: [true, "This is important, kindly fill in"],
   },
 });

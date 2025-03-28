@@ -3,9 +3,8 @@ const htmlToText = require("html-to-text");
 const pug = require("pug");
 module.exports = class Email {
   constructor(user) {
-    this.to = user.email;
+    this.to = user.activeEmail;
     this.firstName = user.fullName.split(" ")[0];
-    this.url = url;
     this.from = `BRETHREN IN POST UTME <${process.env.EMAIL_FROM}>`;
   }
   newTransport() {
@@ -18,8 +17,21 @@ module.exports = class Email {
           user: process.env.BREVO_USERNAME,
           pass: process.env.BREVO_PASSWORD,
         },
+        tls: {
+          rejectUnauthorized: false, // Allow self-signed certificates
+        },
       });
     }
+
+    // Development transport (e.g., Mailtrap)
+    return nodemailer.createTransport({
+      host: "smtp.mailtrap.io",
+      port: 2525,
+      auth: {
+        user: process.env.MAILTRAP_USERNAME,
+        pass: process.env.MAILTRAP_PASSWORD,
+      },
+    });
   }
   async send(template, subject) {
     const html = pug.renderFile(`${__dirname}/../Views/email/${template}.pug`, {

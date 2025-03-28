@@ -6,8 +6,8 @@ const catchAsync = require("./../utilities/catchAsync");
 dotenv.config({ path: "./config.env" });
 const Email = require("./../utilities/email");
 
-exports.signup = catchAsync(async () => {
-  const user = User.create({
+exports.signup = catchAsync(async (req, res) => {
+  const user = await User.create({
     fullName: req.body.fullName,
     activeEmail: req.body.activeEmail,
     activeNumber: req.body.activeNumber,
