@@ -23,7 +23,7 @@ app.use((req, res, next) => {
 
   next();
 });
-app.use("/", viewRouter);
+app.use("/signup", viewRouter);
 app.use("/api/v1/users", userRouter);
 
 app.use(globalErrorHandler);
