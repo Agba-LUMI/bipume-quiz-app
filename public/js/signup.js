@@ -27,7 +27,7 @@ export const signUp = async (
         "You have successfully registered for BIPUME FREE MOCK, Kindly check Your Mail for Your Exam details"
       );
       window.setTimeout(() => {
-        location.assign("http://127.0.0.1:4000/signup"), 1500;
+        location.assign("/signup"), 1500;
       });
     }
   } catch (err) {

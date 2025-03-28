@@ -6094,7 +6094,7 @@ var signUp = exports.signUp = /*#__PURE__*/function () {
           if (res.data.status === "success") {
             (0, _alerts.showAlert)("success", "You have successfully registered for BIPUME FREE MOCK, Kindly check Your Mail for Your Exam details");
             window.setTimeout(function () {
-              location.assign("http://127.0.0.1:4000/signup"), 1500;
+              location.assign("/signup"), 1500;
             });
           }
           _context.next = 10;
