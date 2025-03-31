@@ -15,10 +15,6 @@ const userSchema = mongoose.Schema({
       true,
       "Your Email is required to be registered for this free Mock Exercise",
     ],
-    unique: [
-      true,
-      "You cannot register more than once for this mock Exam, kindly check your mail for your registration details",
-    ],
   },
   activeNumber: {
     type: Number,
