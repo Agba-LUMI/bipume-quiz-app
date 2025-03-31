@@ -7,7 +7,6 @@ const userSchema = new mongoose.Schema({
       true,
       "Your Name is required to be registered for this free Mock Exercise",
     ],
-    trim: true,
   },
   activeEmail: {
     type: String,
@@ -16,7 +15,6 @@ const userSchema = new mongoose.Schema({
       "Your Email is required to be registered for this free Mock Exercise",
     ],
     unique: true,
-    lowercase: true,
     trim: true,
     validate: {
       validator: function (val) {
