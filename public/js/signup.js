@@ -11,7 +11,7 @@ export const signUp = async (
   try {
     const res = await axios({
       method: "POST",
-      url: "/api/v1/users/signup",
+      url: "/api/v1/users/signup/",
       data: {
         fullName,
         activeEmail,
