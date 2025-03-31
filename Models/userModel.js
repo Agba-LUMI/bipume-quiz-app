@@ -45,5 +45,5 @@ const userSchema = new mongoose.Schema({
   },
 });
 
-const UserModel = mongoose.model("UserModel", userSchema); // Note: Capitalized the model name to follow convention
+const UserModel = mongoose.model("usermodels", userSchema); // Note: Capitalized the model name to follow convention
 module.exports = UserModel;

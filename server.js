@@ -2,14 +2,36 @@ const mongoose = require("mongoose");
 const dotenv = require("dotenv");
 const app = require("./app");
 dotenv.config({ path: "/config.env" });
+const userModel = require("./Models/userModel");
 const DB = process.env.DATABASE.replace(
   "<db_password>",
   process.env.DATABASE_PASSWORD
 );
-mongoose
-  .connect(DB)
-  .then(() => console.log("DB Connection Successful"))
-  .catch((err) => console.log("DB Connection error"));
+
+(async () => {
+  try {
+    await mongoose.connect(DB);
+
+    console.log("Database connected successfully");
+
+    // Drop the existing index for activeEmail to remove duplicate issues
+    await UserModel.collection.dropIndex("activeEmail_1").catch((err) => {
+      console.log(
+        "No existing index to drop or already deleted. Proceeding..."
+      );
+    });
+
+    // Recreate indexes defined in your schema
+    await UserModel.createIndexes();
+
+    console.log("Indexes recreated successfully");
+
+    process.exit(0);
+  } catch (error) {
+    console.error("Error during index recreation:", error);
+    process.exit(1);
+  }
+})();
 const port = process.env.PORT || 4000;
 const server = app.listen(port, () =>
   console.log(`Server is running on port ${port}`)
