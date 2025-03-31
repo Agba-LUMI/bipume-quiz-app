@@ -14,6 +14,14 @@ app.use(express.static(path.join(__dirname, "public")));
 app.use(cors());
 app.options("*", cors());
 app.use(helmet());
+app.use(
+  helmet.contentSecurityPolicy({
+    directives: {
+      defaultSrc: ["'self'"],
+      connectSrc: ["'self'", "wss://bipume-mock.onrender.com"],
+    },
+  })
+);
 app.use(express.json({ limit: "10kb" }));
 app.use(express.urlencoded({ limit: "10kb", extended: true }));
 app.use(compression());
