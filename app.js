@@ -17,10 +17,15 @@ app.use(
   helmet.contentSecurityPolicy({
     directives: {
       defaultSrc: ["'self'"],
-      connectSrc: ["'self'", "wss://bipume-mock.onrender.com"],
+      connectSrc: [
+        "'self'",
+        "wss://bipume-mock.onrender.com",
+        "wss://bipume-mock.onrender.com:*", // Allow all ports
+      ],
     },
   })
 );
+
 app.use(express.json({ limit: "10kb" }));
 app.use(express.urlencoded({ limit: "10kb", extended: true }));
 app.use(compression());
