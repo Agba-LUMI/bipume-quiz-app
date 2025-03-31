@@ -6079,7 +6079,7 @@ var signUp = exports.signUp = /*#__PURE__*/function () {
           _context.next = 3;
           return (0, _axios.default)({
             method: "POST",
-            url: "/api/v1/users/signup",
+            url: "https://bipume-mock.onrender.com/api/v1/users/signup/",
             data: {
               fullName: fullName,
               activeEmail: activeEmail,
@@ -6155,7 +6155,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "52421" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "60494" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];
