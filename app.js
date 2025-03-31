@@ -30,8 +30,8 @@ app.use((req, res, next) => {
 
   next();
 });
-app.use("/signup", viewRouter);
-app.use("/api/v1/users", userRouter);
 
+app.use("/api/v1/users/signup", userRouter);
+app.use("/signup", viewRouter);
 app.use(globalErrorHandler);
 module.exports = app;
