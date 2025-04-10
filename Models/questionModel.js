@@ -17,16 +17,13 @@ const SubjectSchema = new mongoose.Schema({
     }),
     required: true,
     default: {},
-
-    // Validate subject names using UserModel subjects
     validate: {
       validator: async function (value) {
-        // Fetch allowed subjects from UserModel schema definition
         const allowedSubjects =
           UserModel.schema.paths.selectedSubjects.options.validate
             .message()
-            .split(":")[1] // Extract allowed subjects from error message
-            .replace(/[\[\].]/g, "") // Clean up brackets and dots
+            .split(":")[1]
+            .replace(/[\[\].]/g, "")
             .split(",") // Convert to an array
             .map((s) => s.trim()); // Trim spaces
 

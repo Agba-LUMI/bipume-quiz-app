@@ -1,0 +1,41 @@
+doctype html
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    title BIPUME Students
+
+    link(rel='shortcut icon', href='/images/bipume.jpg', type='image/png')
+    link(rel="stylesheet", href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css")
+    link(rel="stylesheet", href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css")
+    link(rel="stylesheet", href="https://fonts.googleapis.com/css?family=Raleway:100,600")
+    link(rel="stylesheet", href="https://fonts.googleapis.com/css?family=Open+Sans:300")
+    include _style
+
+
+  body
+    include _header.pug
+
+    section#team.team.content-section
+      .container
+        .row.text-center
+          .col-md-12
+            h1.bipume_header BIPUME STUDENTS
+            h1.caption.gray.bipume_header Meet BIPUME STUDENTS
+        .row
+          each user in users
+            .col-md-4.primary
+              figure
+                img.img-responsive(src="/images/default.jpg", alt= user.fullName)
+
+              
+                     
+                p.bipume_secondary=`Full Name: ${user.fullName}`
+                p.bipume_secondary=`Email Address: ${user.activeEmail}`
+                p.bipume_secondary=`Email Address: ${user.desireJambScore}`
+                p.bipume_secondary=`Active WhatsApp Number: ${user.activeNumber}`
+                p.bipume_secondary=`On BIPUME Group?: ${user.onBipume}`
+                p.bipume_secondary=`Would You Like to Join BIPUME Group?: ${user.joinBipume}`
+                
+                
+    include _footer.pug

@@ -37,5 +37,5 @@ app.use((req, res, next) => {
 });
 
 app.use("/api/v1/users/signup", userRouter);
-app.use("/signup", viewRouter);
+app.use("/", viewRouter);
 module.exports = app;

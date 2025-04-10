@@ -4,7 +4,7 @@
   "description": "A quiz app for brethren in post utme",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
+    "start": "start server.js",
     "start:prod": "cross-env NODE_ENV=production nodemon server.js",
     "watch:js": "parcel watch ./public/js/index.js --out-dir ./public/js --out-file bundle.js",
     "build": "parcel watch ./public/js/index.js --out-dir ./public/js --out-file bundle.js"
@@ -32,7 +32,7 @@
     "html-to-text": "^9.0.5",
     "jsonwebtoken": "^9.0.2",
     "mongodb": "^6.15.0",
-    "mongoose": "^8.10.0",
+    "mongoose": "^8.13.2",
     "morgan": "^1.10.0",
     "nodemailer": "^6.10.0",
     "path": "^0.12.7",

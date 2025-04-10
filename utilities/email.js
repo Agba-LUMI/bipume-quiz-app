@@ -55,10 +55,7 @@ module.exports = class Email {
       "You have Successfully Registered for BIPUME MOCK EXAM"
     );
   }
-  async resetPassword() {
-    await this.send(
-      "passwordReset",
-      "Your Password reset link (valid for 10mins)"
-    );
+  async sendReminderMail() {
+    await this.send("reminderEmail", "BIPUME MOCK EXAM IS TOMORROW");
   }
 };

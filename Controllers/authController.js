@@ -28,10 +28,45 @@ exports.signup = catchAsync(async (req, res) => {
     onBipume: req.body.onBipume,
     joinBipume: req.body.joinBipume,
   });
-  
+
   await new Email(user).sendWelcome();
   res.status(200).json({
     status: "success",
     data: user,
   });
 });
+exports.sendReminderMail = async (req, res) => {
+  try {
+    const users = await User.find();
+
+    const emailPromises = users.map((user) =>
+      new Email(user).sendReminderMail()
+    );
+
+    await Promise.all(emailPromises);
+
+    res.status(200).json({
+      status: "success",
+      message: "Reminder emails sent successfully",
+    });
+  } catch (err) {
+    console.log(err);
+    res.status(500).json({
+      status: "error",
+      message: "An error occurred while sending reminder emails",
+    });
+  }
+};
+exports.getAllUsers = async (req, res, next) => {
+  try {
+    const users = await User.find();
+    res.locals.users = users;
+    next();
+  } catch (err) {
+    console.error(err);
+    res.status(500).json({
+      status: "error",
+      message: "An error occured",
+    });
+  }
+};
