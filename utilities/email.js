@@ -18,7 +18,7 @@ module.exports = class Email {
           pass: process.env.BREVO_PASSWORD,
         },
         tls: {
-          rejectUnauthorized: false, // Allow self-signed certificates
+          rejectUnauthorized: false,
         },
       });
     }

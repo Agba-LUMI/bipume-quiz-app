@@ -23,7 +23,7 @@ html(lang="en")
             h1.bipume_header BIPUME STUDENTS
             h1.caption.gray.bipume_header Meet BIPUME STUDENTS
         .row
-          each user in users
+          each user in results.result
             .col-md-4.primary
               figure
                 img.img-responsive(src="/images/default.jpg", alt= user.fullName)
@@ -32,10 +32,22 @@ html(lang="en")
                      
                 p.bipume_secondary=`Full Name: ${user.fullName}`
                 p.bipume_secondary=`Email Address: ${user.activeEmail}`
-                p.bipume_secondary=`Email Address: ${user.desireJambScore}`
+                p.bipume_secondary=`Desired JAMB Score: ${user.desireJambScore}`
                 p.bipume_secondary=`Active WhatsApp Number: ${user.activeNumber}`
                 p.bipume_secondary=`On BIPUME Group?: ${user.onBipume}`
                 p.bipume_secondary=`Would You Like to Join BIPUME Group?: ${user.joinBipume}`
-                
+      div.pagination
+        if results.previous && results.next
+            a.prev(href=`http://127.0.0.1:4000/?page=${results.previous.page}&limit=${results.previous.limit}`) Previous
+            a.next(href=`http://127.0.0.1:4000/?page=${results.next.page}&limit=${results.next.limit}`) Next
+        else if results.totalPages
+            a(href=`http://127.0.0.1:4000/?page=${results.totalPages}&limit=10`).prev.disabled Previous
+            a(href="http://127.0.0.1:4000/?page=1&limit=10").next.disabled Next
+        else 
+          //- a(href=`http://127.0.0.1:4000/?page=2&limit=5`).prev.disabled Previous
+          a(href="http://127.0.0.1:4000/?page=1&limit=10").next.disabled Next
+            
+      
+            
                 
     include _footer.pug

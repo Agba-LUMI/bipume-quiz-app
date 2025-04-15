@@ -4,7 +4,7 @@
   "description": "A quiz app for brethren in post utme",
   "main": "server.js",
   "scripts": {
-    "start": "start server.js",
+    "start": "nodemon server.js",
     "start:prod": "cross-env NODE_ENV=production nodemon server.js",
     "watch:js": "parcel watch ./public/js/index.js --out-dir ./public/js --out-file bundle.js",
     "build": "parcel watch ./public/js/index.js --out-dir ./public/js --out-file bundle.js"
