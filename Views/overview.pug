@@ -38,14 +38,14 @@ html(lang="en")
                 p.bipume_secondary=`Would You Like to Join BIPUME Group?: ${user.joinBipume}`
       div.pagination
         if results.previous && results.next
-            a.prev(href=`http://127.0.0.1:4000/?page=${results.previous.page}&limit=${results.previous.limit}`) Previous
-            a.next(href=`http://127.0.0.1:4000/?page=${results.next.page}&limit=${results.next.limit}`) Next
+            a.prev(href=`/?page=${results.previous.page}&limit=${results.previous.limit}`) Previous
+            a.next(href=`/?page=${results.next.page}&limit=${results.next.limit}`) Next
         else if results.totalPages
-            a(href=`http://127.0.0.1:4000/?page=${results.totalPages}&limit=10`).prev.disabled Previous
-            a(href="http://127.0.0.1:4000/?page=1&limit=10").next.disabled Next
+            a(href=`/?page=${results.totalPages}&limit=10`).prev.disabled Previous
+            a(href="/?page=1&limit=10").next.disabled Next
         else 
           //- a(href=`http://127.0.0.1:4000/?page=2&limit=5`).prev.disabled Previous
-          a(href="http://127.0.0.1:4000/?page=1&limit=10").next.disabled Next
+          a(href="/?page=1&limit=10").next.disabled Next
             
       
             
